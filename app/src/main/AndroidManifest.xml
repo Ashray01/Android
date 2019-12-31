@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.drawingtest">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_web_black_24dp"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.activity.Calculator"></activity>
+        <activity android:name=".ui.activity.Movies" />
+        <activity android:name=".ui.activity.Activity_Webview" />
+        <activity android:name=".ui.activity.DrawShapes" />
+        <activity android:name=".ui.activity.MainMenu" />
+        <activity android:name=".ui.activity.CreateAccount" />
+        <activity android:name=".ui.activity.MainActivity" />
+        <activity
+            android:name=".ui.activity.CanvasSettings"
+            android:label="@string/title_activity_canvas_settings" />
+        <activity android:name=".ui.activity.CreateGrid" />
+        <activity android:name=".ui.activity.DisplayGrid" />
+        <activity android:name=".ui.activity.About" />
+        <activity
+            android:name=".ui.activity.Login"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

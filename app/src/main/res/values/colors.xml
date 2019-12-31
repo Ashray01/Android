@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="rounded_container_bg">#777E5EEE</color>
+    <color name="rounded_container_border">#3b3f44</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="gradStart">#9932cc</color>
+    <color name="gradStop">#00ced1</color>
+    <color name="blueberry">#D7651FFF</color>
+    <color name="blue_light">#00E5FF</color>
+
+    <array name="palette">
+        <item>#FFF</item>
+        <item>#000</item>
+        <item>@color/tomato</item>
+        <item>@color/tangerine</item>
+        <item>@color/banana</item>
+        <item>@color/basil</item>
+        <item>@color/sage</item>
+        <item>@color/peacock</item>
+        <item>@color/blueberry</item>
+        <item>@color/lavender</item>
+        <item>@color/grape</item>
+        <item>@color/flamingo</item>
+        <item>@color/graphite</item>
+    </array>
+</resources>

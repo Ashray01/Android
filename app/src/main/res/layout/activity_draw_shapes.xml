@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.DrawShapes"
+    android:id="@+id/drwShapes"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:orientation="horizontal"
+        android:gravity="bottom">
+
+    <Button
+        android:id="@+id/drwRect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Rectangle"
+        android:textColor="@color/white"
+        android:background="@drawable/background_view_rounded_single"/>
+
+        />
+
+    <Button
+        android:id="@+id/drwsquare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Square"
+        android:textColor="@color/white"
+        android:padding="20dp"
+        android:background="@drawable/background_view_rounded_single"/>
+
+        />
+
+        <Button
+        android:id="@+id/drwCircle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Circle"
+            android:textColor="@color/white"
+        android:padding="20dp"
+            android:background="@drawable/background_view_rounded_single"/>
+        />
+        <Button
+            android:id="@+id/drwline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Line"
+            android:textColor="@color/white"
+            android:padding="20dp"
+            android:background="@drawable/background_view_rounded_single"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

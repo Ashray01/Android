@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    tools:context=".ui.activity.MainMenu"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/cardview_shadow_start_color"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:contentPaddingBottom="10dp"
+        app:contentPaddingLeft="10dp"
+        app:contentPaddingRight="10dp"
+        app:contentPaddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="CreateCanvas"
+                android:padding="10dp"
+                android:text="Canvas"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+
+            <ImageView
+                android:id="@+id/but1"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/canvas"
+                android:onClick="CreateCanvas"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="227dp"
+        app:cardBackgroundColor="@color/cardview_shadow_start_color"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:contentPaddingBottom="10dp"
+        app:contentPaddingLeft="10dp"
+        app:contentPaddingRight="10dp"
+        app:contentPaddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/type2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="CreateGrid"
+                android:padding="10dp"
+                android:text="Grid"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/but2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/grid"
+                android:onClick="CreateGrid"
+                android:text="Grid"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:contentPaddingTop="10dp"
+            app:contentPaddingLeft="10dp"
+            app:contentPaddingRight="10dp"
+            app:contentPaddingBottom="10dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardBackgroundColor="@color/cardview_shadow_start_color">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/type3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shapes"
+                android:padding="10dp"
+                android:textSize="25dp"
+                android:onClick="Shapes"
+                android:textColor="@color/white"/>
+            <ImageView
+                android:id="@+id/but3"
+                android:layout_width="match_parent"
+                android:layout_height="176dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/shapes"
+                android:onClick="Shapes"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/view_grid"
+            android:icon="@drawable/ic_gridview"
+            android:title="Grid" />
+
+        <item
+            android:id="@+id/view_canvas"
+            android:icon="@drawable/ic_canvas"
+            android:title="Canvas" />
+
+        <item
+            android:id="@+id/view_menu"
+            android:icon="@drawable/ic_select_one"
+            android:title="Menu" />
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_about"
+            android:title="Profile"/>
+
+        <item
+            android:id="@+id/webview"
+            android:title="WebView"
+            android:icon="@drawable/ic_web_black_24dp"/>
+        <item
+            android:id="@+id/movies"
+            android:title="Movies"
+            android:icon="@drawable/ic_movie_black_24dp"/>
+        <item
+            android:id="@+id/calculator"
+            android:title="Calculator"
+            android:icon="@drawable/ic_dialpad_black_24dp"/>
+
+    </group>
+    <item android:title="Communicate">
+        <menu>
+
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_share"
+            android:title="Share" />
+
+        <item
+            android:id="@+id/send"
+            android:icon="@drawable/ic_send"
+            android:title="Send" />
+
+        </menu>
+
+    </item>
+
+
+</menu>
+
